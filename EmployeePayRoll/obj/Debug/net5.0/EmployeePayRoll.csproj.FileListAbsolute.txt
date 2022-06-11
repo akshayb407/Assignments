@@ -1,0 +1,16 @@
+H:\Akshay code\EmployeePayRoll\EmployeePayRoll\bin\Debug\net5.0\EmployeePayRoll.exe
+H:\Akshay code\EmployeePayRoll\EmployeePayRoll\bin\Debug\net5.0\EmployeePayRoll.deps.json
+H:\Akshay code\EmployeePayRoll\EmployeePayRoll\bin\Debug\net5.0\EmployeePayRoll.runtimeconfig.json
+H:\Akshay code\EmployeePayRoll\EmployeePayRoll\bin\Debug\net5.0\EmployeePayRoll.runtimeconfig.dev.json
+H:\Akshay code\EmployeePayRoll\EmployeePayRoll\bin\Debug\net5.0\EmployeePayRoll.dll
+H:\Akshay code\EmployeePayRoll\EmployeePayRoll\bin\Debug\net5.0\EmployeePayRoll.pdb
+H:\Akshay code\EmployeePayRoll\EmployeePayRoll\obj\Debug\net5.0\EmployeePayRoll.csproj.AssemblyReference.cache
+H:\Akshay code\EmployeePayRoll\EmployeePayRoll\obj\Debug\net5.0\EmployeePayRoll.GeneratedMSBuildEditorConfig.editorconfig
+H:\Akshay code\EmployeePayRoll\EmployeePayRoll\obj\Debug\net5.0\EmployeePayRoll.AssemblyInfoInputs.cache
+H:\Akshay code\EmployeePayRoll\EmployeePayRoll\obj\Debug\net5.0\EmployeePayRoll.AssemblyInfo.cs
+H:\Akshay code\EmployeePayRoll\EmployeePayRoll\obj\Debug\net5.0\EmployeePayRoll.csproj.CoreCompileInputs.cache
+H:\Akshay code\EmployeePayRoll\EmployeePayRoll\obj\Debug\net5.0\EmployeePayRoll.dll
+H:\Akshay code\EmployeePayRoll\EmployeePayRoll\obj\Debug\net5.0\refint\EmployeePayRoll.dll
+H:\Akshay code\EmployeePayRoll\EmployeePayRoll\obj\Debug\net5.0\EmployeePayRoll.pdb
+H:\Akshay code\EmployeePayRoll\EmployeePayRoll\obj\Debug\net5.0\EmployeePayRoll.genruntimeconfig.cache
+H:\Akshay code\EmployeePayRoll\EmployeePayRoll\obj\Debug\net5.0\ref\EmployeePayRoll.dll

@@ -1,0 +1,3 @@
+.vs/
+EmployeePayRoll/obj
+EmployeePayRoll/bin
