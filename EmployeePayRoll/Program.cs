@@ -16,21 +16,24 @@ namespace EmployeePayRoll
             Random r = new Random();
             int wagePerHour = 20;
             int fullDayhour = 8;
+            int PartTimeHour = 4;
             int totalWage = 0;
-            int number = r.Next(0,2);
-            if (number == 0)
+            int number = r.Next(0,3);
+            switch (number)
             {
-                Console.WriteLine("Employee is Absent");
-              
-
+                case 0: Console.WriteLine("Employee is Absent");
+                    break;
+                case 1:
+                    Console.WriteLine("Employee is Present");
+                    totalWage = wagePerHour * fullDayhour;
+                    break;
+                case 2:
+                   Console.WriteLine("Employee is Present and PartTime Employee");
+                   totalWage = wagePerHour * PartTimeHour;
+                    break;
             }
-            else
-            {
-                Console.WriteLine("Employee is Present");
-                totalWage = wagePerHour * fullDayhour;
-                Console.WriteLine("Employee's total wage is:" + totalWage);
+            Console.WriteLine("Employee's total wage is:" + totalWage);
 
-            }
         }
     }
 }
