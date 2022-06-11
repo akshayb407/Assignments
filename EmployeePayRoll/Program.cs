@@ -7,16 +7,14 @@ namespace EmployeePayRoll
         public const int IsPartTime = 1;
         public const int IsFullTime = 2;
         public const int IsAbsent = 0;
-
+        public const int WagePerHour = 20;
+        public const int NumberOfWorkingDays = 20;
+        public const int MaxHrsInMonth = 100;
         static void Main(string[] args)
         {
-            int TotalWage = 0;
-            int WagePerHour = 20;
-            int PartTimeHour = 4;
-            int FullTimeHour = 8;
-            int NumberOfWorkingDays = 20;
-
-            for (int i = 0; i < NumberOfWorkingDays; i++)
+            int empHrs = 0, empwage = 0, TotalWage = 0;
+            
+            for (int day = 0; day < NumberOfWorkingDays; day++)
             {
                 Random random = new Random();
                 int number = random.Next(0, 3);
@@ -24,22 +22,26 @@ namespace EmployeePayRoll
                 switch (number)
                 {
                     case IsAbsent:
-                        Console.WriteLine("Employee is Absent");
+                        empHrs = 0;
                         break;
+
                     case IsFullTime:
-                        Console.WriteLine("Employee is fulltime");
-                        TotalWage = TotalWage + WagePerHour * FullTimeHour;
+                        empHrs = 8;
+              
                         break;
                     case IsPartTime:
-                        Console.WriteLine("Employee is Present and PartTime Employee");
-                        TotalWage = TotalWage + WagePerHour * PartTimeHour;
+                        empHrs = 4;
+                     
                         break;
                 }
-                    Console.WriteLine("Employee's total wage is:" + TotalWage);
+
+                empwage = empHrs * WagePerHour;
+                TotalWage += empwage;
+                Console.WriteLine("Emp Wage : " + empwage);
 
 
             }
-
+            Console.WriteLine("Total Emp Wage : " + TotalWage);
         }
     }
 }
